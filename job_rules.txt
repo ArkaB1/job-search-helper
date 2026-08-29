@@ -1,0 +1,20 @@
+# JOB FILTERING RULES
+# Edit these lists as you wish! Separate items with commas.
+
+[TARGET_LOCATIONS]
+Gurgaon, Gurugram, Delhi, Noida, NCR, Remote, Hybrid, WFH, Unknown, N/A, Not specified, Greater Noida, Manesar
+
+[REJECT_COMPANIES]
+BCG, Boston Consulting, IBS Gurgaon, Astrotalk, Teleperformance, Concentrix, IGT Solutions
+
+[REJECT_ROLES]
+HR, Human Resource, Talent Acquisition, Recruitment, Recruiter, BPO, Voice Process, Non-Voice, Blended Process, Call Center, Telecaller, Field Sales, Door to Door, Nurse, Healthcare, Accountant, Customer Support, Customer Service, Tech Support, Unpaid, Chat Process, International Chat, Domestic Chat, DevOps, System Administrator, Linux Admin, Cash Loading, ATM Executive, Field Executive, Sales Manager
+
+[REJECT_EXPERIENCE_WORDS]
+3+ years, 4+ years, 5+ years, 4-8 years, 3-5 years, Senior, Lead, Director, Head, Vice President, VP
+
+[REJECT_ANYWHERE]
+1-Year Contractual, 1 year contractual, one year contractual, Female Only, Female Candidate Only, candor, signing 1 year service agreement, service agreement, bond, sales, Only Female Candidate Can Apply, GRG Health
+
+[HIRING_TRIGGERS]
+Hiring Alert, Eligibility, Key Responsibilities, We're Looking For, Share your CV, kickstart your career, Openings, Who can apply, Send your resume, Interested candidates, Qualifications, DM me directly, Requirements, Position, Work Details, Compensation, Key Skills Required, Role, CTC, Stipend
