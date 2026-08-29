@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn AI Auto-Dumper",
+  "version": "5.0",
+  "description": "Scrolls, fully expands posts, and auto-downloads intact JSON data.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["*://*.linkedin.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

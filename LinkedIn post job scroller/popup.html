@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; width: 260px; padding: 12px; background-color: #f8fafc; text-align: center; }
+    .header { background: linear-gradient(135deg, #0a66c2 0%, #004182 100%); color: white; padding: 12px; border-radius: 8px; margin-bottom: 10px; }
+    h3 { margin: 0; font-size: 15px; }
+    
+    .btn-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 8px; }
+    button { width: 100%; padding: 10px; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 13px; transition: 0.2s; }
+    
+    #btn-start { background-color: #0a66c2; }
+    #btn-pause { background-color: #f59e0b; display: none; }
+    #btn-stop { background-color: #d93838; display: none; }
+    
+    #status { font-size: 11px; color: #475569; margin-top: 8px; font-weight: bold; line-height: 1.4; }
+    .counter-badge { background: #e2e8f0; color: #0f172a; padding: 4px 8px; border-radius: 12px; font-size: 11px; font-weight: bold; margin-top: 6px; display: inline-block; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h3>🤖 LinkedIn Post Reader</h3>
+    <div style="font-size: 9px; margin-top: 3px;">Full Text Capture & Auto-Dumper</div>
+  </div>
+  
+  <div class="btn-group">
+    <button id="btn-start">▶ Start Plugin</button>
+    <button id="btn-pause">⏸ Pause Plugin</button>
+    <button id="btn-stop">⏹ Stop & Save Posts</button>
+  </div>
+
+  <div id="counter" class="counter-badge">Saved Posts: 0</div>
+  <div id="status">Status: Ready</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
